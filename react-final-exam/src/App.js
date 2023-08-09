@@ -9,7 +9,9 @@ function App() {
       <header className="App-header">
         <Hello/>
       </header>
-      <Cars/>
+      <div style={{paddingLeft: '5vh'}}>
+        <Cars/>
+      </div>
     </div>
   );
 }
