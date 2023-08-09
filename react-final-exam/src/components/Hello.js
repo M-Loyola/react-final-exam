@@ -9,13 +9,11 @@ const Hello = () => {
     }
 
     return (
-        <>
-            <form onSubmit={handleSubmit}>
-                <label>Enter your name: {name}</label><br/>
-                <input name="nameInput"/>
-                <button type="submit">Submit</button>
-            </form>
-        </>
+        <form onSubmit={handleSubmit}>
+            <label>Enter your name: {name}</label><br />
+            <input name="nameInput" />
+            <button type="submit">Submit</button>
+        </form>
     );
 }
 
