@@ -6,16 +6,14 @@ const Cars = () => {
     }
 
     return (
-        <>
-            <h1 style={fontStyle}>
-                Who lives in my garage?
-            </h1>
+        <div style={fontStyle}>
+            <h1>Who lives in my garage?</h1>
             <ul>
                 {Cars.map((car, index) => (
-                    <li style={fontStyle} key={index}>{car}</li>
+                    <li key={index}>I am a {car}</li>
                 ))}
             </ul>
-        </>
+        </div>
     );
 }
 

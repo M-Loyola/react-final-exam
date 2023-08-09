@@ -1,7 +1,6 @@
-import logo from './logo.svg';
-import Hello from './components/Hello';
-import Cars from './components/Cars';
 import './App.css';
+import Cars from './components/Cars';
+import Hello from './components/Hello';
 
 function App() {
   return (
